@@ -1,51 +1,86 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    margin: 0 auto;
-    padding: 6px;
-    max-width: 1920px;
-    margin: 0 auto;
-    height: 100%;
-  }
-  
-  .form-login {
-    width: 500px;
-    margin: 0 auto;
-    padding: 50px;
-  }
-  
-  .form-login input[type=text], .form-login select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-  }
-  
-  .form-login input[type=submit] {
-    width: 100%;
-    background-color: #af4ca7;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .form-login input[type=submit]:hover {
-    background-color: #45a049;
-  }
-  
-  .form-login div {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
-  /*# sourceMappingURL=style.css.map */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0 auto;
+  padding: 6px;
+  max-width: 1920px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.form-login {
+  width: 500px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.form-login input[type=text], .form-login select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.form-login input[type=submit] {
+  width: 100%;
+  background-color: #af4ca7;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-login input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.form-login div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+body nav {
+  height: 50px;
+}
+
+body nav .navigation__menu {
+  margin-bottom: 60px;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+  background-color: rgba(194, 75, 184, 0.76);
+}
+
+body nav .navigation__menu li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #3f1d3c;
+  font-weight: 300;
+  text-align: center;
+  padding: .5rem 2rem;
+}
+
+body nav .navigation__menu li a:hover {
+  color: white;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=style.css.map */
