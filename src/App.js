@@ -1,13 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import Menu from './Menu';
 import Login from './Login';
 
 class App extends React.Component {
   render() {
+
+    const menuItems = [
+      { href: "#", title: "Главная" },
+      { href: "#", title: "О нас" },
+      { href: "#", title: "Услуги" },
+      { href: "#", title: "Контакты" },
+      { href: "#", title: "Доставка" }
+    ]
+
     return (
       <div>
-          <h1>Hello React!</h1>
+          <Menu items={menuItems}/>
           <Login/>
       </div>);
   }
